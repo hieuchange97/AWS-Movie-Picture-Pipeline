@@ -55,7 +55,6 @@ jobs:
       - name: Run tests
         run: |
           npm run test
-
   build:
     name: Build & Push Docker image
     runs-on: ubuntu-latest
